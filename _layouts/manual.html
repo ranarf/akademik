@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.code}} - {{page.code}} {{page.year}}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <style type="text/css">
+      ol { list-style-type: lower-alpha; }
+    </style>
+    {% include mathjax.html %}
+  </head>
+  <body>
+    <div style="display:none">
+    $\newcommand{\unit}[1]{\mathrm{#1}}$
+    </div>
+    <div class="container">
+
+    {{ content }}
+
+    </div><!-- /.container -->
+  </body>
+</html>
