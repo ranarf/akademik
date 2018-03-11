@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+
+# Site settings
+# Accessed via {{ site.title }}, {{ site.email }}, and so on.
+title: Himpunan Mahasiswa Fisika Teknik ITB
+email: hmft@tf.itb.ac.id
+description: >- # ignore newlines until "baseurl:"
+  Situs resmi Divisi Akademik HMFT ITB.
+baseurl: "/akademik"
+url: "localhost:4000"
+twitter_username: hmftitb
+github_username:  hmftitb
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
